@@ -48,6 +48,21 @@ export const SecondaryDisabled: StoryObj<ButtonProps> = {
   },
 };
 
+export const Tertiary: StoryObj<ButtonProps> = {
+  args: {
+    children: "Button",
+    variant: "tertiary",
+  },
+};
+
+export const TertiaryDisabled: StoryObj<ButtonProps> = {
+  args: {
+    children: "Button",
+    variant: "tertiary",
+    disabled: true,
+  },
+};
+
 export const Violet: StoryObj<ButtonProps> = {
   args: {
     children: "Button",
@@ -60,5 +75,13 @@ export const VioletSecondary: StoryObj<ButtonProps> = {
     children: "Button",
     className: "theme-violet",
     variant: "secondary",
+  },
+};
+
+export const VioletTertiary: StoryObj<ButtonProps> = {
+  args: {
+    children: "Button",
+    className: "theme-violet",
+    variant: "tertiary",
   },
 };
